@@ -62,7 +62,7 @@ with zipfile.ZipFile(fPrefix + fn, 'r') as zip_ref:
     zip_ref.extractall(fPrefix)
 
 # setup pathing for pdf
-output_pdf_name = 'studentID_assignment.pdf'
+output_pdf_name = 'ASLNet_Results.pdf'
 path_to_pdf = '/path/to/resultsDir/' + output_pdf_name # dir for temp storage + name
 
 # Create server command and Call Network for evaluation
